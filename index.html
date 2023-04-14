@@ -10,25 +10,32 @@
 </head>
 <body>
     <div class="invoice-container" style="margin-top:10%">
-        <div class="invoice-header">
-            <div class="title-date" style="width:100%">
-                <p class="date">Date: <input type="date" /></p>
-            </div>
-            <div class="space"></div>
-            <div style="width:100%;text-align:center;margin-top:15px">
-                <h2 class="title">Receipt</h2>
-            </div>
-        </div>
+        
         <div class="invoice-body">
+            <div style="float:right;text-align: right;">
+                <h2 class="title" style="margin-bottom: 15px;">INVOICE</h2>
+                <h4>Universal Toys</h4>
+                <h5>sharukhshaikh207@gmail.com</h5>
+                <h5>+917977151791</h5>
+                <h5>Manish Market Gate no. 4 oppo. Sahara Market</h5>
+            </div>
+
+            <div style="width:100%"></div>
              <table>
+                <tr><td style="width:100%"><br /></td></tr>
                     <tr>
-                        <td><input type="text" id="company" placeholder="Company Name" />
-                    </tr>
-                    <tr>
-                       <td>Bill To <hr style="width:90%" />
-                       <input type="text" id="bill" placeholder="Address" />
-                    
-                        <td>Ship To <hr style="width:90%" /><input type="text" id="ship" placeholder="Address" />
+              <td>
+                <div style="float:left;width:50%">
+                <input type="text" id="bill" placeholder="Biller's Name" /> <br />
+                <input type="text" id="phone" placeholder="Biller's Phone Number" />
+            </div>
+            <div  style="float:right;width:50%">
+                <p class="date" style="float:right">Invoice Date: <input type="date" /></p>
+                <p class="date" style="float:right">Due Date: <input type="date" /></p>
+            </div>
+                        </td>
+
+                       
                     </tr>
                 </table>
             <table>
@@ -50,16 +57,13 @@
                 </tr>
                 
                 <tr style="padding-left: 20px" class="prt">
-                    <td class="dashed "><div class="float">
+                    <td ><div class="float">
                         <a href="#" class="float" id="add-row">
                             <span class="material-icons plus prt">add</span>
                         </a>
                     </div>
                 </td>
-                    <td class="dashed"></td>
-                    <td class="dashed"></td>
-                    <td class="dashed"></td>
-                    <td class="dashed"></td>
+            
                 </tr>
             </tbody>
             </table>
