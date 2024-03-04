@@ -94,8 +94,8 @@ td {
 
 input[type=number] {
     text-align: center ;
-    max-width: auto;
-    font-size: 15px;
+    width: 60px;
+    font-size: 18px;
     padding: 10px;
     border: none;
     outline: none;
